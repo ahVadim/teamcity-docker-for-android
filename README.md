@@ -7,3 +7,5 @@ docker settings for TeamCity agent for building android projects
 docker build -t teamcity-android-agent .
 docker-compose -t teamcity-compose up teamcity-server teamcity-agent
 ```
+
+teamcity url: http://localhost:8111
